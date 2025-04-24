@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.mo
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+static/
+
+# VSCode config
+.vscode/
+
+# Docker
+*.pid
+.env
+.env.*
+.docker/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# Python dotenv
+.env
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
